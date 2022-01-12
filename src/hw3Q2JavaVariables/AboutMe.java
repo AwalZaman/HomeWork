@@ -30,7 +30,7 @@ public class AboutMe {
 		 */
 		AboutMe aboutElixir = new AboutMe();
 		// String concat done only with strings here
-		// testing
+		// testing 02
 		System.out.println(aboutElixir.name.concat(aboutElixir.surname));
 		System.out.println("Sex: " + aboutElixir.sex);
 		System.out.println("Age: " + aboutElixir.age);
