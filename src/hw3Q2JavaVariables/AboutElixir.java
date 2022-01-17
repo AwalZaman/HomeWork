@@ -1,6 +1,6 @@
 package hw3Q2JavaVariables;
 
-public class AboutMe {
+public class AboutElixir {
 	// declared variable
 	public int elixir;
 	// initialized variable; String is not a pure primitive data type
@@ -28,7 +28,7 @@ public class AboutMe {
 		 * Here instantiation class object = new constructor(); 
 		 * aboutElixir is being a category under class AboutMe
 		 */
-		AboutMe aboutElixir = new AboutMe();
+		AboutElixir aboutElixir = new AboutElixir();
 		// String concat done only with strings here
 		// testing 02
 		System.out.println(aboutElixir.name.concat(aboutElixir.surname));
@@ -45,3 +45,4 @@ public class AboutMe {
  * here 
  */
 }
+
