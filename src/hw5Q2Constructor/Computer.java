@@ -17,8 +17,12 @@ public class Computer {
 	// parameterized constructor
 
 	public Computer(String brand, String model, String oS, int price, char grade, boolean madeInUsa) {
-		// didn't link global to global again as its linked by default here.
-
+		this.brand = brand;
+		this.model = model;
+		this.oS = oS;
+		this.price = price;
+		this.grade = grade;
+		this.madeInUsa = madeInUsa;
 		System.out.println("My Brand: " + brand + ", Model: " + model + ", oS: " + oS + ", Price: " + price + "$, "
 				+ "Grade: " + grade + ", Made in USA? Ans: " + madeInUsa);
 	}
