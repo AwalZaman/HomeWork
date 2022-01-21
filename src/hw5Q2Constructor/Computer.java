@@ -17,6 +17,7 @@ public class Computer {
 	// parameterized constructor
 
 	public Computer(String brand, String model, String oS, int price, char grade, boolean madeInUsa) {
+
 		System.out.println("My Brand: " + brand + ", Model: " + model + ", oS: " + oS + ", Price: " + price + "$, "
 				+ "Grade: " + grade + ", Made in USA? Ans: " + madeInUsa);
 	}
