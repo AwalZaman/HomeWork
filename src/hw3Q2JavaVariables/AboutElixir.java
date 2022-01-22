@@ -45,4 +45,3 @@ public class AboutElixir {
  * here 
  */
 }
-

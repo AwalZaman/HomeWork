@@ -16,8 +16,8 @@ Class- Naming_conventions
  */
 
 public class MySelf {
-	//main method is the entry point of java
-	public static void main(String[]args) {
+	// main method is the entry point of java
+	public static void main(String[] args) {
 		System.out.println("Awal Zaman");
 	}
 }
