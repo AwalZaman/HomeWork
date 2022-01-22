@@ -5,24 +5,24 @@ public class Student {
 	public int stID;
 	public char sex;
 	public float grade;
-	public boolean javaProgrammer;
+	public boolean isProgrammer;
 	
-	// default constructor
+		// default constructor
 		public Student() {
 			System.out.println("This is from default Constructor of Student class");
 		}
 
 		// parameterized constructor
-		public Student(String stName, int stID, char sex, float grade, boolean javaProgrammer) {
+		public Student(String stName, int stID, char sex, float grade, boolean isProgrammer) {
 			//generated from eclipse
 			this.stName = stName;
 			this.stID = stID;
 			this.sex = sex;
 			this.grade = grade;
-			this.javaProgrammer = javaProgrammer;
+			this.isProgrammer = isProgrammer;
 			
-			System.out.println("Student Name: " + stName+ ", ID: " + stID + ", Sex: " + sex +", Grade " + grade + ", and Java Programmer? Ans: " +javaProgrammer);
-			//Student Name: <your name>, ID: <your id>, Sex: <your sex in char>, Grade = 3.976 and Java Programmer? Ans: true. 
+			System.out.println("Student Name: " + stName+ ", ID: " + stID + ", Sex: " + sex +", Grade " + grade + " and Java Programmer? Ans: " +isProgrammer);
+		 
 		}
 		
 		

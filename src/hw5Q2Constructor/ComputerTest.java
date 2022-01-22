@@ -4,7 +4,7 @@ public class ComputerTest {
 	public static void main(String[] args) {
 		// default constructor is initialized
 		System.out.println("--------------First Outcome------------------");
-		Computer comp01 = new Computer();
+		Computer computer = new Computer();
 		// parameterized constructor is initialized
 		System.out.println("\n--------------Second Outcome------------------");
 		Computer mac = new Computer("Apple", "Macbook Air", "MacOS Mojave", 800, 'A', false);

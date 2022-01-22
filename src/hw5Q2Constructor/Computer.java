@@ -1,7 +1,7 @@
 package hw5Q2Constructor;
 
 public class Computer {
-//declared variables
+	//declared variables
 	public String brand;
 	public String model;
 	public String oS;
@@ -15,7 +15,6 @@ public class Computer {
 	}
 
 	// parameterized constructor
-
 	public Computer(String brand, String model, String oS, int price, char grade, boolean madeInUsa) {
 		this.brand = brand;
 		this.model = model;
@@ -24,7 +23,7 @@ public class Computer {
 		this.grade = grade;
 		this.madeInUsa = madeInUsa;
 		System.out.println("My Brand: " + brand + ", Model: " + model + ", oS: " + oS + ", Price: " + price + "$, "
-				+ "Grade: " + grade + ", Made in USA? Ans: " + madeInUsa);
+				+ "Grade: " + grade + " and Made in USA? Ans: " + madeInUsa);
 	}
 
 }
