@@ -1,6 +1,6 @@
 package hw3Q2JavaVariables;
 
-public class AboutElixir {
+public class AboutMe {
 	// declared variable
 	public int elixir;
 	// initialized variable; String is not a pure primitive data type
@@ -28,18 +28,18 @@ public class AboutElixir {
 		 * Here instantiation class object = new constructor(); 
 		 * aboutElixir is being a category under class AboutMe
 		 */
-		AboutElixir aboutElixir = new AboutElixir();
+		AboutMe aboutMe = new AboutMe();
 		// String concat done only with strings here
 		// testing 02
-		System.out.println(aboutElixir.name.concat(aboutElixir.surname));
-		System.out.println("Sex: " + aboutElixir.sex);
-		System.out.println("Age: " + aboutElixir.age);
-		System.out.println("House Rent: " + aboutElixir.rent);
-		System.out.println("Salary: " + aboutElixir.salary);
-		System.out.println("Deposit: " + aboutElixir.bankBalance);
-		System.out.println("Height: " + aboutElixir.myHeight);
-		System.out.println("GPA: " + aboutElixir.myGrade);
-		System.out.println("Does have US Citizenship? : " + aboutElixir.usCitizen);
+		System.out.println(aboutMe.name.concat(aboutMe.surname));
+		System.out.println("Sex: " + aboutMe.sex);
+		System.out.println("Age: " + aboutMe.age);
+		System.out.println("House Rent: " + aboutMe.rent);
+		System.out.println("Salary: " + aboutMe.salary);
+		System.out.println("Deposit: " + aboutMe.bankBalance);
+		System.out.println("Height: " + aboutMe.myHeight);
+		System.out.println("GPA: " + aboutMe.myGrade);
+		System.out.println("Does have US Citizenship? : " + aboutMe.usCitizen);
 	}
 /*interesting - https://www.linkedin.com/learning/learning-java-8/instantiating-classes 
  * here 
