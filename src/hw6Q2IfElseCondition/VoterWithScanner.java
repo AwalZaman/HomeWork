@@ -4,13 +4,10 @@ import java.util.Scanner;
 
 public class VoterWithScanner {
 
-	private static Scanner sc;
-
 	public static void main(String[] args) {
-		int age;
-		sc = new Scanner(System.in);
 		System.out.println("Input Age to Continue: ");
-		age = sc.nextInt();
+		Scanner sc = new Scanner(System.in);
+		int age = sc.nextInt();
 
 		if (age == 18) {
 			System.out.println("I am a Voter");
@@ -21,6 +18,5 @@ public class VoterWithScanner {
 		} else {
 			System.out.println("Please add a valid age");
 		}
-
 	}
 }
