@@ -18,5 +18,6 @@ public class VoterWithScanner {
 		} else {
 			System.out.println("Please add a valid age");
 		}
+		sc.close();
 	}
 }
