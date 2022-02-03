@@ -1,7 +1,7 @@
 package hw5Q2Constructor;
 
 public class Computer {
-	// declared variables
+	// variables declared
 	public String brand;
 	public String model;
 	public String oS;
@@ -25,5 +25,4 @@ public class Computer {
 		System.out.println("My Brand: " + brand + ", Model: " + model + ", oS: " + oS + ", Price: " + price + "$, "
 				+ "Grade: " + grade + " and Made in USA? Ans: " + madeInUsa);
 	}
-
 }

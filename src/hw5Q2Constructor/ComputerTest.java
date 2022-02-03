@@ -10,6 +10,5 @@ public class ComputerTest {
 		Computer mac = new Computer("Apple", "Macbook Air", "MacOS Mojave", 800, 'A', false);
 		System.out.println("\n--------------Third Outcome------------------");
 		Computer win = new Computer("HP", "Omen Obelix", "Windows 11", 1200, 'A', false);
-
 	}
 }
