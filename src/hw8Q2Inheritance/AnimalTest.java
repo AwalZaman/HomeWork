@@ -8,7 +8,7 @@ public class AnimalTest {
 		animal.animalInfo();
 		System.out.println("\n--> Bird, Mammal, Reptile are Hierarchical Inheritance form Animal");
 
-		System.out.println("\n************************** Mammals **************************\n");
+		System.out.println("\n\n************************** Mammals **************************\n");
 		System.out.println("--> Single Inheritance: Mammal > Animal \n");
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
@@ -22,13 +22,13 @@ public class AnimalTest {
 
 		System.out.println("\n--> Multi-level Inheritance: BullDog > Dog > Mammal > Animal \n");
 		BullDog bullDog = new BullDog();
-		bullDog.bulldogInfo();
+		bullDog.bullDogInfo();
 		bullDog.dogInfo();
 		bullDog.mammalInfo();
 		bullDog.animalInfo(); // Bulldog extends Dog -->> Dog extends Mammal -->> Mammal Extends Animal this
 								// is called 'Multi-level' inheritance
 
-		System.out.println("\n************************** Reptile ****************************\n");
+		System.out.println("\n\n************************** Reptile ****************************\n");
 		System.out.println("## Reptile -->> Animal \n");
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
@@ -47,8 +47,8 @@ public class AnimalTest {
 		cobra.reptileInfo();
 		cobra.animalInfo();
 
-		System.out.println("\n************************* BIRDS ************************\n");
-		System.out.println("\n---------------- \"Birds\" is Parent/base/ super class for Robin ---------------\n");
+		System.out.println("\n\n************************* BIRDS ************************\n");
+		System.out.println("---------------- \"Birds\" is Parent/base/ super class for Robin ---------------\n");
 		Birds birds = new Birds();
 		birds.birdsInfo();
 		birds.animalInfo();
