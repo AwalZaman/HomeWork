@@ -8,7 +8,7 @@ public class AnimalTest {
 		animal.animalInfo();
 		System.out.println("\n--> Bird, Mammal, Reptile are Hierarchical Inheritance form Animal");
 
-		System.out.println("\n************************** Mammals ****************************\n");
+		System.out.println("\n************************** Mammals **************************\n");
 		System.out.println("--> Single Inheritance: Mammal > Animal \n");
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
@@ -47,8 +47,8 @@ public class AnimalTest {
 		cobra.reptileInfo();
 		cobra.animalInfo();
 
-		System.out.println("\n************************** BIRDS ****************************\n");
-		System.out.println("\n---------------- \"Birds\" is Parent/base/ super class for Robin ------------------\n");
+		System.out.println("\n************************* BIRDS ************************\n");
+		System.out.println("\n---------------- \"Birds\" is Parent/base/ super class for Robin ---------------\n");
 		Birds birds = new Birds();
 		birds.birdsInfo();
 		birds.animalInfo();

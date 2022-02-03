@@ -1,4 +1,5 @@
 package hw8Q2Inheritance;
+
 //Single Inheritance
 public class Robin extends Birds {
 
