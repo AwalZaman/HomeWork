@@ -23,10 +23,13 @@ public class ColumbiaUniversity extends MedicalSchool {
 	// Regular class must implement the inherited abstract methods
 	// Override solved this by adding unimplemented methods from abstract class MedicalSchool and NursingSchool
 
+	@Override
 	public void anatomyLab() {
+		// implemented from MedicalSchool abstract class
 	}
 
 	@Override
 	public void hygiene() {
+		// implemented from NursingSchool abstract class
 	}
 }

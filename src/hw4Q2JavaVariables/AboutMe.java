@@ -23,5 +23,4 @@ public class AboutMe {
 				+ mySalary + "\nMy Bank Balance : " + myBalance + "\nSex: " + sex + "\nMy Height: " + myHeight
 				+ " Meter" + "\nMy Grade: " + myGrade + "\nAm I US Citizen? Ans: " + usCitizen);
 	}
-
 }
