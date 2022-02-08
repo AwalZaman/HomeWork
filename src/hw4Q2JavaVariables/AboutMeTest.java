@@ -1,10 +1,13 @@
 package hw4Q2JavaVariables;
 
+import javax.swing.event.TableColumnModelListener;
+
+import hw5Q2Constructor.Computer;
+
 public class AboutMeTest {
 
 	public static void main(String[] args) {
 		System.out.println("\n*************** Information about MySelf *****************\n");
-		// AboutMe class instantiated
 		AboutMe awalElixir = new AboutMe(); // Constructor initialized
 		awalElixir.name = "Awal"; // variables initialized
 		awalElixir.age = 30;
@@ -16,7 +19,7 @@ public class AboutMeTest {
 		awalElixir.myGrade = 3.20588845;
 		awalElixir.usCitizen = false;
 		awalElixir.aboutMe(); // method initialized
-
+				
 		System.out.println("\n*************** Information about Alex *****************\n");
 		AboutMe myInfo2 = new AboutMe(); // Constructor initialized
 		myInfo2.name = "Alex";// variables initialized
