@@ -6,7 +6,7 @@ public class Daughter extends Father {
 
 	// Default Constructor
 	public Daughter() {
-		super("Eddie", 50, 'M', true); // Parameterized constructor called from father
+		super("Chester Bennington", 38, 'M', true); // Parameterized constructor called from father
 		super.familyName = "Ches";
 		super.father();
 		super.fatherInfo("Chester", 38, 'M', true);
