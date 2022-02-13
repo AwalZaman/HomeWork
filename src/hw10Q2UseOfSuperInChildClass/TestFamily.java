@@ -28,5 +28,4 @@ public class TestFamily {
 		father.fatherInfo("Ron", 60, 'M', true);
 
 	}
-
 }

@@ -37,5 +37,4 @@ public class Daughter extends Father {
 		this.age = age;
 		System.out.println("Daughter Info Parameter -> Born in: " + birthMonth + ", Age: " + age);
 	}
-
 }
