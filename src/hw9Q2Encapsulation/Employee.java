@@ -7,14 +7,18 @@ public class Employee {
 	private boolean usCitizen;
 
 	/*
-	 * When we create the getter method that returns the value of the private variable we are not getting the address but instead creating a temporary copy that holds the value of
-	 * the returned value
+	 * The Employee class declares private variables -> name,age,sex,usCitizen Since they are private, the code from the outside of this class cannot access the variable directly
+	 * Instead, the outside code has to invoke the getter -> getNumber(), and the setter -> setNumber(), in order to read or update the variable Getter and setter are also known as
+	 * accessor and mutator in Java
 	 */
+
+	// Getter is a method that reads the value of a variable.
 	public String getName() {
 		return name;
 	}
 
-	// The setter method sets a value to the private variable which can't be done when it's from another class.
+	// The setter method sets a value of the private variable which can be accessed from another class.
+	// Setter is a method that updates the value of a variable.
 	public void setName(String name) {
 		this.name = name;
 	}
