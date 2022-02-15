@@ -1,14 +1,12 @@
 package hw10Q3Abstraction;
 
-public abstract class MedicalSchool extends NursingSchool implements LawSchool{
-	
-	// Extends and implements keyword is used by Abstract class for the inheritance in Java 
+public abstract class MedicalSchool extends NursingSchool implements LawSchool {
+
+	// Extends and implements keyword is used by Abstract class for the inheritance in Java
 	// Abstract class can inherit only one abstract class or one regular class by extends keyword
 	// Extends keyword is not used to inherit interface by abstract class
-	// Implements keyword is used by Abstract Class to inherit more than one interface 
-	
+	// Implements keyword is used by Abstract Class to inherit more than one interface
 
-	
 	// method declared/defined/abstract method
 	public abstract void anatomyLab();
 

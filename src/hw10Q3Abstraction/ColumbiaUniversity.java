@@ -5,7 +5,7 @@ public class ColumbiaUniversity extends MedicalSchool {
 	// Regular class use Extends and implements keyword for inheritance in Java
 	// Regular Class can inherit other Abstract Class or a regular class by extends keyword
 	// Regular Class can't inherit interface by extends keyword
-	// Implements keyword is used by regular Class to inherit more than one interface 
+	// Implements keyword is used by regular Class to inherit more than one interface
 
 	// public void chemistry();
 	// Resolution: abstract/ declared method not possible in this regular class
