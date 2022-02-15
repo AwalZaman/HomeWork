@@ -6,8 +6,10 @@ public class Employee {
 	private char sex;
 	private boolean usCitizen;
 
-	// When we create the getter method that returns the value of the private variable we are not getting the address
-	// but instead creating a temporary copy that holds the value of the returned value.
+	/*
+	 * When we create the getter method that returns the value of the private variable we are not getting the address but instead creating a temporary copy that holds the value of
+	 * the returned value
+	 */
 	public String getName() {
 		return name;
 	}
