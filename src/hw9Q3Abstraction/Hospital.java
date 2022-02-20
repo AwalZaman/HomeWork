@@ -2,13 +2,17 @@ package hw9Q3Abstraction;
 
 public interface Hospital {
 
-	public void vocationalInfo();
+	public void emergencyRoom();
+
+	public void surgeryRoom();
+
+	public void cafeteria();
 
 	public default void morgue() {
 		System.out.println("Hospital's Morgue");
 	}
 
-	public static void phramacy() {
+	public static void pharmacy() {
 		System.out.println("Hospital's Pharmacy");
 	}
 }

@@ -1,4 +1,4 @@
-package hw10Q3Abstraction;
+package hw11Q3Abstraction;
 
 public interface Hospital {
 
@@ -7,7 +7,7 @@ public interface Hospital {
 	public void surgeryRoom();
 
 	public void cafeteria();
-
+	
 	public default void morgue() {
 		System.out.println("Hospital's Morgue");
 	}

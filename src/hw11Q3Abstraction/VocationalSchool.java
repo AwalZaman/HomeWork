@@ -1,4 +1,4 @@
-package hw9Q3Abstraction;
+package hw11Q3Abstraction;
 
 public interface VocationalSchool {
 
