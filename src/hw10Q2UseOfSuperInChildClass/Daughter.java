@@ -15,15 +15,13 @@ public class Daughter extends Father {
 	}
 
 	public Daughter(String birthMonth, int age) {
-		super(); // default constructor called from father
-		// super () --> represent the default constructor of parent class
 		this.birthMonth = birthMonth;
 		this.age = age;
 		System.out.println("Daughter Constructor -> Born in: " + birthMonth + ", Age: " + age);
 	}
 
 	public void daughter() {
-		// Parameterized constrcutor Father can't be called in method
+		// Parameterized constrcutor Father can't be called by super method here
 		// super("Eddie", 50, 'M', true);
 		super.familyName = "Eddie";
 		super.father();

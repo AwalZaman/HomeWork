@@ -26,6 +26,5 @@ public class TestFamily {
 		
 		System.out.println("\n\n----- Parameterized method initialized for Father Class -----");
 		father.fatherInfo("Ron", 60, 'M', true);
-
 	}
 }
