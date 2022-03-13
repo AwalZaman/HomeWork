@@ -13,14 +13,8 @@ public class Sister {
 	public void sister() {
 		System.out.println("This is the void type method for Sister Class");
 	}
-
+	
 	// Return type parameterized method
-	public int sister(int age1) {
-		int total1 = age1;
-		System.out.println("1st total is: " + total1);
-		return total1;
-	}
-
 	public int sister(int age1, int age2) {
 		int total2 = age1 + age2;
 		System.out.println("2nd total is: " + total2);
@@ -31,12 +25,6 @@ public class Sister {
 		int total3 = age1 + age2 + age3;
 		System.out.println("3rd total is: " + total3);
 		return total3;
-	}
-
-	public int sister(String age4, int age5) {
-		int total4 = Integer.parseInt(age4) + age5;
-		System.out.println("4th total is: " + total4);
-		return total4;
 	}
 
 	// static method

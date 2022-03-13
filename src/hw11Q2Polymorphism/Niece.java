@@ -16,13 +16,6 @@ public class Niece extends Sister {
 
 	// Return type parameterized method
 	@Override
-	public int sister(int age1) {
-		int total1 = age1 + 1;
-		System.out.println("1st total is: " + total1);
-		return total1;
-	}
-
-	@Override
 	public int sister(int age1, int age2) {
 		int total2 = age1 + age2 - 20;
 		System.out.println("2nd total is: " + total2);
@@ -34,13 +27,6 @@ public class Niece extends Sister {
 		int total3 = age1 + age2 + age3 * 2;
 		System.out.println("3rd total is: " + total3);
 		return total3;
-	}
-
-	@Override
-	public int sister(String age4, int age5) {
-		int total4 = Integer.parseInt(age4) + age5 - 4;
-		System.out.println("4th total is: " + total4);
-		return total4;
 	}
 
 	/*
